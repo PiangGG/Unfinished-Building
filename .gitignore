@@ -44,7 +44,6 @@ Platforms/
 
 Plugins/*/Binaries/*
 Plugins/*/Intermediate/*
-Plugins/*/Content/*
 
 Plugins/GameFeatures/ShooterCore/Binaries
 Plugins/GameFeatures/ShooterCore/Intermediate
