@@ -8,6 +8,7 @@
 #include "QuestBlueprint.h"
 #include "DetailCategoryBuilder.h"
 #include "NarrativeTask.h"
+#include "EditorStyleSet.h"
 
 #define LOCTEXT_NAMESPACE "QuestEditorDetails"
 

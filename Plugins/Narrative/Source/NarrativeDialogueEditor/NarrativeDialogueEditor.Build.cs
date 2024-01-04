@@ -59,7 +59,7 @@ public class NarrativeDialogueEditor : ModuleRules
                 "AnimGraph",
                 "BlueprintGraph",
                 "ClassViewer",
-                "Narrative"
+                "Narrative",
             }
 			);
 
