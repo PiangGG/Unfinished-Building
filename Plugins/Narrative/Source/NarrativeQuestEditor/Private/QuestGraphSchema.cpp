@@ -19,7 +19,7 @@
 #include "GraphEditorActions.h"
 #include "Framework/Commands/GenericCommands.h"
 #include "QuestEditorCommands.h"
-#include "AssetRegistryModule.h"
+#include "AssetRegistry/AssetRegistryModule.h"
 #include "NarrativeTask.h"
 #include "QuestSM.h"
 #include "Quest.h"

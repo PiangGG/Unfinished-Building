@@ -2,8 +2,8 @@
 
 
 #include "NarrativeTaskManager.h"
-#include "AssetRegistryModule.h"
 #include "NarrativeTask.h"
+#include "AssetRegistry/AssetRegistryModule.h"
 
 UNarrativeTaskManager::UNarrativeTaskManager()
 {

@@ -15,7 +15,7 @@
 #include "GraphEditorActions.h"
 #include "Framework/Commands/GenericCommands.h"
 #include "DialogueEditorCommands.h"
-#include "AssetRegistryModule.h"
+#include "AssetRegistry/AssetRegistryModule.h"
 #include "DialogueSM.h"
 #include "DialogueGraphNode_NPC.h"
 #include "DialogueGraphNode_Player.h"
