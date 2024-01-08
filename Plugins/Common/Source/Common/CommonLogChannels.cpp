@@ -7,6 +7,8 @@ DEFINE_LOG_CATEGORY(LogCommonExperience);
 DEFINE_LOG_CATEGORY(LogCommonAbilitySystem);
 DEFINE_LOG_CATEGORY(LogCommonTeams);
 
+DEFINE_LOG_CATEGORY(LogCommonGamePhase);
+
 FString GetClientServerContextString(UObject* ContextObject)
 {
 	ENetRole Role = ROLE_None;

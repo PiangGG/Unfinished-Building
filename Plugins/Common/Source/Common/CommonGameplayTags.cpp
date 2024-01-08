@@ -70,7 +70,7 @@ namespace CommonGameplayTags
 	UE_DEFINE_GAMEPLAY_TAG(TAG_Gameplay_DamageImmunity, "Gameplay.DamageImmunity");
 	UE_DEFINE_GAMEPLAY_TAG(TAG_Gameplay_DamageSelfDestruct, "Gameplay.Damage.SelfDestruct");
 	UE_DEFINE_GAMEPLAY_TAG(TAG_Gameplay_FellOutOfWorld, "Gameplay.Damage.FellOutOfWorld");
-	UE_DEFINE_GAMEPLAY_TAG(TAG_Common_Damage_Message, "Lyra.Damage.Message");
+	UE_DEFINE_GAMEPLAY_TAG(TAG_Common_Damage_Message, "Common.Damage.Message");
 	
 	// Custom Movement Modes
 	const TMap<uint8, FGameplayTag> CustomMovementModeTagMap =
