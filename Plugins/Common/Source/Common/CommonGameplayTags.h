@@ -7,13 +7,13 @@ namespace CommonGameplayTags
 	COMMON_API	FGameplayTag FindTagByString(const FString& TagString, bool bMatchPartialString = false);
 	
 	// Declare all of the custom native tags that Common will use|声明Common将使用的所有自定义本机标记
-	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_IsDead);
+	COMMON_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_IsDead);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_Cooldown);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_Cost);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_TagsBlocked);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_TagsMissing);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_Networking);
-	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_ActivationGroup);
+	COMMON_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_ActivateFail_ActivationGroup);
 	//
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Ability_Behavior_SurvivesDeath);
 	//
@@ -40,7 +40,7 @@ namespace CommonGameplayTags
 	//
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_Crouching);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_AutoRunning);
-	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_Death);
+	COMMON_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_Death);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_Death_Dying);
 	// LYRAGAME_API	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Status_Death_Dead);
 	//
@@ -62,4 +62,11 @@ namespace CommonGameplayTags
 	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Gameplay_DamageSelfDestruct);
 	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Gameplay_FellOutOfWorld);
 	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Common_Damage_Message);
+
+	//CommonAbilityComponent
+	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Gameplay_AbilityInputBlocked);
+
+	//CommonGameplayAbility
+	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_ABILITY_SIMPLE_FAILURE_MESSAGE);
+	COMMON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_ABILITY_PLAY_MONTAGE_FAILURE_MESSAGE);
 }

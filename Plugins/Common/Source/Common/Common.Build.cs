@@ -44,7 +44,10 @@ public class Common : ModuleRules
 				"GameplayTags", 
 				"GameplayTasks",
 				"GameplayMessageRuntime",
-				"NetworkReplayStreaming",
+				"NetworkReplayStreaming", 
+				"ModularGameplay",
+				"CommonGame",
+				"ModularGameplayActors",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
