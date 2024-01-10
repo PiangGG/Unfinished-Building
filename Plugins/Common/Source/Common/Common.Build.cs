@@ -28,6 +28,7 @@ public class Common : ModuleRules
 				"Core",
 				"NetCore",
 				"PhysicsCore",
+				"AudioModulation",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -47,7 +48,9 @@ public class Common : ModuleRules
 				"NetworkReplayStreaming", 
 				"ModularGameplay",
 				"CommonGame",
-				"ModularGameplayActors",
+				"ModularGameplayActors", 
+				"CommonLoadingScreen",
+				
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
